@@ -1,4 +1,4 @@
-import noRestrictedSyntax from "eslint/lib/rules/no-restricted-syntax";
+import noRestricted from "./no-restricted-syntax";
 import { TSESTree } from "@typescript-eslint/types";
 import { TSESLint } from "@typescript-eslint/experimental-utils";
 
@@ -99,7 +99,7 @@ export = {
   rules: {
     "all-cy-intercept-at-top": interceptAtTop,
     "no-intercept-without-stub": noInterceptWithoutStub,
-    "no-restricted-syntax-extra": noRestrictedSyntax,
+    "no-restricted-syntax-extra": noRestricted,
   },
   configs: {
     default: {
