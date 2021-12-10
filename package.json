@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-various-rules",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -11,6 +11,9 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "eslint": "^8"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
